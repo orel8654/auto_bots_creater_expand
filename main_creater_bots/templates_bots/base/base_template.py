@@ -1,3 +1,0 @@
-
-class TemplateData:
-    JSON = None
