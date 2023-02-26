@@ -19,12 +19,12 @@ def changes_template(data = Body()):
     return {'h': 'c'}
 
 @app.post("/create_db/")
-def changes_template(data = Body()):
+def create_db(data = Body()):
     # как создать автоматически sqllite3?
     return {'h': 'x'}
 
 @app.post("/add_to_db/")
-def changes_template(data = Body()):
+def add_to_db(data = Body()):
     # как добавлять данные в sqllite3?
     return {'h': 'a'}
 
